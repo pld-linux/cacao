@@ -10,7 +10,7 @@ Source0:	http://www.complang.tuwien.ac.at/cacaojvm/download/cacao-%{version}/%{n
 URL:		http://www.cacaojvm.org/
 BuildRequires:	classpath-devel
 Requires:	classpath
-ExclusiveArch:	%{ix86} %{x8664} alpha arm hppa m68k mips ppc ppc64 s390 sparc64
+ExclusiveArch:	%{ix86} %{x8664} alpha arm hppa m68k mips mipsel ppc ppc64 s390 sparc64
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
